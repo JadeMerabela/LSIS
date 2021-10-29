@@ -1,0 +1,60 @@
+@font-face {
+    font-family: poppins;
+    src: url('../assets/Poppins/Poppins-Regular.ttf');
+}
+*{
+    font-family: poppins;
+    color: var(--secondary);
+}
+
+/*--utilities--*/
+.btn {
+background: var(--primary);
+color: var(--secondary);
+border: var(--secondary) 2px solid;
+padding: 5px 40px;
+}
+.btn:hover{
+    background: var(--secondary);
+    color: var(--primary);
+}
+
+/*--theme color--*/
+:root {
+    --primary: #29344C;
+    --secondary: #ffffff;
+}
+.slide-ads{
+    margin-top: 2%;
+}
+.slide-ad img{
+    width: 100%;
+    height: 550px;
+}
+.carou {
+    position: absolute;
+    right: 0;
+}
+body {
+    background-color: var(--primary);
+}
+.navbar{
+    background-color: var(--primary);
+}
+.nav-caption {
+    margin-left: 20px;
+}
+.nav-icon{
+    width: 200px;
+    height: 80px;
+}
+/*----- Media Queries -----*/
+@media (max-width: 992px){
+
+}
+@media (max-width: 768px){
+
+}
+@media (max-width: 576px){
+
+}
