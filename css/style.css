@@ -6,7 +6,9 @@
     font-family: poppins;
     color: var(--secondary);
 }
-
+html {
+    scroll-behavior: smooth;
+}
 /*--utilities--*/
 .btn {
 background: var(--primary);
@@ -31,10 +33,6 @@ padding: 5px 40px;
     width: 100%;
     height: 550px;
 }
-.carou {
-    position: absolute;
-    right: 0;
-}
 body {
     background-color: var(--primary);
 }
@@ -48,13 +46,70 @@ body {
     width: 200px;
     height: 80px;
 }
-/*----- Media Queries -----*/
-@media (max-width: 992px){
 
+.carousel-caption {
+    position: absolute;
+    left: 5%;
+    top: 11%;
+    width: 50%;
+    line-height: 5rem;
 }
-@media (max-width: 768px){
-
+.carousel-caption h1 {
+    margin: 3%;
 }
-@media (max-width: 576px){
+.space {
+    height: 10vh;
+}
+/* This is the welcome section */
 
+#welcome {
+    background-color: #ffffff;
+    height: 80vh;
+    /* position: relative; */
+}
+
+#welcome-text {
+    width: 50%;
+    padding-top: 11%;
+}
+#welcome-text h2 {
+    color: #000;
+    /* position: absolute;
+    top: 50%;
+    left: 50%; */
+}
+
+#welcome-text h6 {
+    color: #000;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+/* This code id for the two column sections */
+
+#column-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5rem;
+}
+.column-items {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.column-items p {
+    margin-top: 3%;
+}
+.fas {
+    font-size: 60px;
+    color: #ffffff;
+}
+footer {
+    background-color: grey ;
+    color: rgba(241, 241, 241, 0.7);
+    text-align: center;
+    font-size: 14px;
+    padding: 2%;
+    z-index: -3;
 }
