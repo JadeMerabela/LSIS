@@ -4,7 +4,6 @@
 }
 *{
     font-family: poppins;
-    /* color: var(--secondary); */
 }
 html {
     scroll-behavior: smooth;

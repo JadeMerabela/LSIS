@@ -452,3 +452,15 @@ var qualifications = ["2D Animation NC III", "2D Animation NC III (Superseded)",
 }
       
 autocomplete(document.getElementById("qualifications"), qualifications);
+
+
+// This is for the form validation
+
+function validation() {
+  Swal.fire({
+    title: 'Great!',
+    text: 'You are about to answer the Questionarre. Click okay to proceed',
+    confirmButtonText: 'Proceed',
+  })
+
+}
