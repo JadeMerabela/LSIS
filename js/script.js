@@ -10,6 +10,7 @@ function toggle() {
         }
 }
 
+
 var qualifications = ["2D Animation NC III", "2D Animation NC III (Superseded)", "2D Game Art Development NC III", "3D Animation NC III", "3D Animation NC III (Superseded)", "3D Game Art Development NC III", "5-Axis CNC Machine Operation NC III",
     "Able Seafarer Deck NC II (II-5)",
     "Able Seafarer Engine NC II (III-5)",

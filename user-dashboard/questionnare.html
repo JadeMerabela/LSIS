@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnare for learners</title>
+    <!-- <link rel="stylesheet" href="/css/bootstrap-4.6.0-dist/css/bootstrap.min.css">
+    <script src="/js/jquery-3.6.0.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/css/bootstrap-4.6.0-dist/js/bootstrap.min.js"></script> -->
+    <link rel="stylesheet" href="/css/sweetalert2.min.css">
+    <link rel="stylesheet" href="/user-dashboard/css/mycss.css">
+</head>
+<body>
+    <h2>QUESTIONNAIRE TO DETERMINE LEARNER’S STYLE</h2>
+    <form action="" id="regForm">
+        <div style="overflow: auto;padding-bottom: 40px;" class="step-indicator">
+            <span class="step"></span>
+            <span class="step"></span>
+        </div>
+        <div class="tab">
+            <span class="tab-title">Language, Literacy and numeracy (LL&N)</span>
+            <span class="tab-sub">Average grade in: English</span> <br>
+
+            <input type="checkbox" id="grade-above" name="grade-above" value="grade-above"oninput="this.className=''">
+            <label for="grade-above"> 95 and above</label><br>
+            <input type="checkbox" id="grade-90" name="grade-90" value="grade-90"oninput="this.className=''">
+            <label for="grade-90"> 90-94</label><br>
+            <input type="checkbox" id="grade85" name="grade85" value="grade85"oninput="this.className=''">
+            <label for="grade85"> 85-84</label><br>
+            <input type="checkbox" id="grade75" name="grade75" value="grade75"oninput="this.className=''">
+            <label for="grade75"> 75-79 </label>
+        </div>
+
+        <div class="tab">
+            <!-- <span class="tab-title">Language, Literacy and numeracy (LL&N)</span> -->
+            <span class="tab-sub">Average grade in: Math</span> <br>
+
+            <input type="checkbox" id="grade-above" name="grade-above" value="grade-above" oninput="this.className=''">
+            <label for="grade-above"> 95 and above</label><br>
+
+            <input type="checkbox" id="grade-90" name="grade-90" value="grade-90"oninput="this.className=''">
+            <label for="grade-90"> 90-94</label><br>
+
+            <input type="checkbox" id="grade85" name="grade85" value="grade85"oninput="this.className=''">
+            <label for="grade85"> 85-84</label><br>
+
+            <input type="checkbox" id="grade75" name="grade75" value="grade75"oninput="this.className=''">
+            <label for="grade75"> 75-79 </label>
+        </div>
+
+        <div style="overflow: auto;">
+            <div id="buttonss" style="float: right;">
+                <button type="button" id="prevBtn" onclick="nextPrev(-1)">Back</button>
+                <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+        </div>
+
+    </form>
+
+    <script src="/css/sweetalert2.all.min.js"></script>
+    <script src="/user-dashboard/js/myjs.js"></script>
+</body>
+</html>
