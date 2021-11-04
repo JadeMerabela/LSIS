@@ -128,6 +128,7 @@ footer {
     top: 12%;
     z-index: 10;
     border-radius: 30px;
+    overflow: hidden;
 }
 .autocomplete input {
     width: 80%;
@@ -142,13 +143,51 @@ footer {
 .input-group-login {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    height: 430px;
+    transition: .5s;
 }
-
+.input-group-register {
+    top: 120px;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    transition: .5s;
+}
+#admin {
+    /* display: none; */
+        left: 450px;
+}
+#login {
+    left: 50px;
+}
 .submitbtn {
     background-color: rgb(22, 22, 22);
     color: #ffffff;
+}
+.button-box {
+    width: 270px;
+    margin: 35px auto;
+    position: relative;
+    /* border: 1px solid #000; */
+    box-shadow: 0 0 10px 1px #fff;
+    border-radius: 30px;
+}
+.toggle-btn {
+    padding: 10px 30px;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+#btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 140px;
+    height: 100%;
+    background: var(--secondary);
+    border-radius: 30px;
+    transition: .5s;
 }
 
 .autocomplete {

@@ -25,9 +25,15 @@
             <button type="button" id="btnlogin" class="btn ml-auto loginbtn" onclick="toggle()"> Login </button>
         </div>
     </nav>
+    
     <!-- Login Form Box -->
     <div id = "login-form" class ="login-page">
         <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" onclick="learner()" class="toggle-btn">Learner</button>
+                <button type="button" onclick="admin()" class="toggle-btn">Admin</button>
+            </div>
             <form action="" id="login" class="input-group-login" autocomplete="off">
                 <input type="text" class="input-field" id="full-name" placeholder="Full Name" required>
                 <div class="autocomplete">
@@ -38,11 +44,16 @@
                     <option value="" class="input-field">Male</option>
                     <option value="" class="input-field">Female</option>
                 </select>
-                <select name="" class="input-field" id="acc-type" required>
-                    <option value="" disabled selected class="input-field"> Account Type </option>
-                    <option value="" class="input-field">Trainer</option>
-                    <option value="" class="input-field">Learner</option>
+                <input type="submit" id="form-submit" class="input-field submitbtn" onclick="validation();">
+            </form>
+            <form action="" id="admin" class="input-group-register">
+                <input type="text" class="input-field" id="full-name" placeholder="Full Name" required>
+                <select name="" class="input-field" id="gender">
+                    <option value="" class="input-field" disabled selected> Gender </option>
+                    <option value="" class="input-field">Male</option>
+                    <option value="" class="input-field">Female</option>
                 </select>
+                <input type="password" class="input-field" id="full-name" placeholder="Password" required>
                 <input type="submit" id="form-submit" class="input-field submitbtn" onclick="validation();">
             </form>
         </div>
@@ -86,11 +97,7 @@
     <div class="container-fluid" id="welcome">
         <div class="container" id="welcome-text">
             <h2 class="text-center"> Welcome! don't know your learning style yet? </h2>
-            <h6 class="text-center"> This website is the way for trainer's
-                and learner's knowledge is assimilated and absorbed. 
-               Helping them to know what learning
-                style they have for learner's and 
-               prepare the materials later on for trainer's. </h6>
+            <h6 class="text-center"> This website is the way for trainers and learners' knowledge to be assimilated and absorbed. Help them know what learning style they have for learners and prepare the materials later on for the trainer.</h6>
             <hr>
         </div>
     </div>
@@ -111,9 +118,7 @@
             <i class="fas fa-question-circle"></i>
             <span>How to</span>
             <p>
-                Learning Style Identification System 
-                is a System 
-                that help trainer to know their learners learning style</p>
+                Before login make sure to click the account type. If you're the Trainor please select ADMIN. If you're the learner, please select LEARNER</p>
         </div>
     </div>
     <footer>
