@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Gathering</title>
+    <link rel="stylesheet" href="/css/sweetalert2.min.css">
+    <link rel="stylesheet" href="/user-dashboard/css/mycss.css">
+</head>
+<body>
+    <h2>DATA GATHERING INSTRUMENT FOR LEARNER’S CHARACTERISTICS</h2>
+    <form action="" id="regForm">
+        <div style="overflow: auto;padding-bottom: 40px;" class="step-indicator">
+            <span class="step"></span>
+            <span class="step"></span>
+            <span class="step"></span>
+            <span class="step"></span>
+            <span class="step"></span>
+            <span class="step"></span>
+            <span class="step"></span>
+            <span class="step"></span>
+            <span class="step"></span>
+            <span class="step"></span>
+            <span class="step"></span>
+            <span class="step"></span>
+        </div>
+        <div class="tab">
+            <span class="tab-title">Language, Literacy and numeracy (LL&N)</span>
+            <span class="tab-sub">Average grade in: English</span> <br>
+
+            <input type="checkbox" id="ifugao" name="ifugao" value="ifugao" oninput="this.className=''">
+            <label for="ifugao"> 95 and above</label><br>
+            <input type="checkbox" id="igorot" name="igorot" value="igorot"oninput="this.className=''">
+            <label for="igorot"> 90 - 94</label><br>
+            <input type="checkbox" id="ibanag" name="ibanag" value="ibanag"oninput="this.className=''">
+            <label for="ibanag"> 85 - 84</label><br>
+            <input type="checkbox" id="gaddang" name="gaddang" value="gaddang"oninput="this.className=''">
+            <label for="gaddang"> 75 - 79 </label><br>
+        </div>
+
+        <div class="tab">
+            <span class="tab-title">Cultural and Language background</span>
+            <span class="tab-sub">Ethnicity/Culture:</span> <br>
+
+            <input type="checkbox" id="ifugao" name="ifugao" value="ifugao" oninput="this.className=''">
+            <label for="ifugao"> Ifugao </label><br>
+            <input type="checkbox" id="igorot" name="igorot" value="igorot"oninput="this.className=''">
+            <label for="igorot"> Igorot</label><br>
+            <input type="checkbox" id="ibanag" name="ibanag" value="ibanag"oninput="this.className=''">
+            <label for="ibanag"> Ibanag </label><br>
+            <input type="checkbox" id="gaddang" name="gaddang" value="gaddang"oninput="this.className=''">
+            <label for="gaddang"> Gaddang </label><br>
+            <input type="checkbox" id="muslim" name="muslim" value="muslim" oninput="this.className=''">
+            <label for="muslim"> Muslim </label><br>
+            <input type="checkbox" id="ibaloy" name="ibaloy" value="ibaloy"oninput="this.className=''">
+            <label for="ibaloy"> Ibaloy </label><br>
+            <input type="checkbox" id="others" name="others" value="others"oninput="this.className=''">
+            <label for="others"> Others (please specify) </label>
+        </div>
+
+        <div class="tab">
+            <span class="tab-title">Education & general knowledge
+            </span>
+            <span class="tab-sub">Highest Educational Attainment</span> <br>
+            <input type="checkbox" id="hs-level" name="hs-level" value="hs-level">
+            <label for="hs-level">High School Level</label><br>
+            <input type="checkbox" id="hs-grad" name="hs-grad" value="hs-grad"oninput="this.className=''">
+            <label for="hs-grad"> High School Graduate</label><br>
+            <input type="checkbox" id="c-level" name="c-level" value="c-level"oninput="this.className=''">
+            <label for="c-level"> College Level</label><br>
+            <input type="checkbox" id="m-unit" name="m-unit" value="m-unit"oninput="this.className=''">
+            <label for="m-unit"> with units in Master's Degree </label><br>
+            <input type="checkbox" id="m-grad" name="m-grad" value="m-grad"oninput="this.className=''">
+            <label for="m-grad"> Masteral Graduate</label><br>
+            <input type="checkbox" id="d-unit" name="d-unit" value="d-unit"oninput="this.className=''">
+            <label for="d-unit"> with Units in Doctoral Level </label><br>
+            <input type="checkbox" id="d-grad" name="d-grad" value="d-grad"oninput="this.className=''">
+            <label for="d-grad"> Doctoral Graduate </label><br>
+        </div>
+
+        <div class="tab">
+            <span class="tab-title">Sex
+            </span>
+            <!-- <span class="tab-sub">Average grade in: Math</span> <br> -->
+            <input type="checkbox" id="m-sex" name="m-sex" value="m-sex"oninput="this.className=''">
+            <label for="m-sex">Male</label><br>
+            <input type="checkbox" id="f-sex" name="f-sex" value="f-sex"oninput="this.className=''">
+            <label for="f-sex"> Female</label>
+        </div>
+
+        <div class="tab">
+            <span class="tab-title">Age
+            </span>
+            <label for="y-age">Your age</label>
+            <input type="text" id="y-age" name="y-age" value="y-age" oninput="this.className=''">
+        </div>
+
+        <div class="tab">
+            <span class="tab-title">Physical Ability
+            </span> 
+            <span class="tab-sub">Disabilities (If any)</span> <br>
+            <input type="text" id="y" name="y-age" value="y-age" oninput="this.className=''">
+            <span class="tab-sub">Existing Health Condition (Existing illness if any)</span> <br>
+            <input type="checkbox" id="none" name="none" value="none"oninput="this.className=''">
+            <label for="none">None</label><br>
+            <input type="checkbox" id="asthma" name="asthma" value="asthma"oninput="this.className=''">
+            <label for="asthma"> Asthma</label><br>
+            <input type="checkbox" id="h-disease" name="h-disease" value="h-disease"oninput="this.className=''">
+            <label for="h-disease"> Heart Disease </label><br>
+            <input type="checkbox" id="anemia" name="anemia" value="anemia"oninput="this.className=''">
+            <label for="anemia">Anemia</label><br>
+            <input type="checkbox" id="hyper" name="hyper" value="hyper"oninput="this.className=''">
+            <label for="hyper">Hypertension</label><br>
+            <input type="checkbox" id="others-1" name="others-1" value="others-1"oninput="this.className=''">
+            <label for="others-1"> Others (please specify) </label>
+            </label><br>
+        </div>
+
+        <div class="tab">
+            <span class="tab-title">Previous Experience with the topic
+            </span> 
+            <span class="tab-sub">CHS Certificates</span> <br>
+            <input type="checkbox" id="chs-cert" name="chs-cert" value="chs-cert"oninput="this.className=''">
+            <label for="chs-cert">CHS certified</label><br>
+            <input type="checkbox" id="chs-grad" name="chs-grad" value="chs-grad"oninput="this.className=''">
+            <label for="chs-grad"> CHS graduate</label><br>
+            <input type="checkbox" id="chs-train" name="chs-train" value="chs-train"oninput="this.className=''">
+            <label for="chs-train"> CHS trainer</label><br>
+            <input type="checkbox" id="chs-lead" name="chs-lead" value="chs-lead"oninput="this.className=''">
+            <label for="chs-lead"> CHS lead trainer </label><br>
+            <input type="checkbox" id="num-chs" name="num-chs" value="num-chs"oninput="this.className=''">
+            <label for="num-chs"> Number of Years as a CHS Trainer</label><br>
+        </div>
+
+        <div class="tab">
+            <span class="tab-title">Previous Learning Experience
+            </span> 
+            <span class="tab-sub">CHS Certificates</span> <br>
+            <input type="checkbox" id="train-related" name="train-related" value="train-related" oninput="this.className=''">
+            <label for="train-related">List down trainings related</label><br>
+        </div>
+
+        <div class="tab">
+            <span class="tab-title">Training Level Completed
+            </span> 
+            <span class="tab-sub">CHS Certificates</span> <br>
+            <input type="checkbox" id="train-chs" name="train-chs" value="train-chs">
+            <label for="train-chs">List down trainings related</label><br>
+        </div>
+
+        <div class="tab">
+            <span class="tab-title">Special Courses
+            </span> 
+            <span class="tab-sub">Other courses related to CHS</span> <br>
+            <input type="checkbox" id="units-edu" name="units-edu" value="units-edu"oninput="this.className=''">
+            <label for="units-edu">Units in Education</label><br>
+            <input type="checkbox" id="masters-edu" name="masters-edu" value="masters-edu"oninput="this.className=''">
+            <label for="hs-grad"> Master’s degree units in education
+            </label><br>
+            <input type="checkbox" id="ch-train" name="ch-train" value="ch-train"oninput="this.className=''">
+            <label for="ch-train"> CHS trainer</label><br>
+            <input type="checkbox" id="lead-train" name="lead-train" value="lead-train"oninput="this.className=''">
+            <label for="lead-train"> CHS lead trainer </label><br>
+            <input type="checkbox" id="year-chs" name="year-chs" value="year-chs"oninput="this.className=''">
+            <label for="year-chs"> Number of Years as a CHS Trainer</label><br>
+            <input type="checkbox" id="others-2" name="others-2" value="others-2"oninput="this.className=''">
+            <label for="others-2"> Others (please specify) </label>
+        </div>
+
+        <div class="tab">
+            <span class="tab-title">Other needs
+            </span> 
+            <!-- <span class="tab-sub">Other courses related to CHS</span> <br> -->
+            <input type="checkbox" id="finan-chal" name="finan-chal" value="finan-chal">
+            <label for="finan-chal">Financially challenged</label><br>
+            <input type="checkbox" id="work-stu" name="work-stu" value="work-stu"></label>
+            <label for="work-stu">Working students</label><br>
+            <input type="checkbox" id="solo-parent" name="solo-parent" value="solo-parent">
+            <label for="solo-parent">Solo parent</label><br>
+        </div>
+
+        <div class="tab">
+            <span class="tab-title">Learning Style
+            </span> 
+            <input type="checkbox" id="visual" name="visual" value="visual" oninput="this.className=''">
+            <label for="hs-level">Visual- The learner takes mental pictures of information given, so in order for this kind of learner to retain information, oral or written, presentations of new information must contain diagrams and drawings, preferably in color. The visual learner can’t concentrate with a lot of activity around him and will focus better and learn faster in a quiet study environment.
+            </label><br>
+            <input type="checkbox" id="kines" name="kines" value="kines"oninput="this.className=''">
+            <label for="kines"> Kinesthetic- described as the students in the classroom, who have problems sitting still and who often bounce their legs while tapping their fingers on the desk. They are often referred to as hyperactive students with concentration issues.
+            </label><br>
+            <input type="checkbox" id="audi" name="audi" value="audi"oninput="this.className=''">
+            <label for="audi">Auditory- a learner who has ability to remember speeches and lectures in detail but has a hard time with written test. Having to read long texts is pointless and will not be retained by the auditory learner unless it is read aloud.
+            </label><br>
+        </div>
+
+        <div style="overflow: auto;">
+            <div id="buttonss" style="float: right;">
+                <button type="button" id="prevBtn" onclick="nextPrev(-1)">Back</button>
+                <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+        </div>
+
+    </form>
+
+    <script src="/css/sweetalert2.all.min.js"></script>
+    <script src="/user-dashboard/js/myjs.js"></script>
+</body>
+</html>

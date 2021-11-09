@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Style Identification System</title>
+    <link rel="shortcut icon" href="assets/image/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap-4.6.0-dist/css/bootstrap.min.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="css/bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="stylesheet" href="css/sweetalert2.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!--Navigation-->
+
+    <nav class="navbar">
+        <div class="container">
+            <img class="nav-icon" src="./assets/image/logoval.png" alt="">
+            <button type="button" id="btnlogin" class="btn ml-auto loginbtn" onclick="toggle()"> Login </button>
+        </div>
+    </nav>
+    
+    <!-- Login Form Box -->
+    <div id = "login-form" class ="login-page">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" onclick="learner()" class="toggle-btn">Learner</button>
+                <button type="button" onclick="admin()" class="toggle-btn">Admin</button>
+            </div>
+            <form action="" id="login" class="input-group-login" autocomplete="off">
+                <input type="text" class="input-field" id="full-name" placeholder="Full Name" required>
+                <div class="autocomplete">
+                    <input id="qualifications" type="text" class="input-field" name="qualifications" placeholder="Qualifications" required>
+                </div>
+                <select name="" class="input-field" id="gender" required>
+                    <option value="" class="input-field" disabled selected> Gender </option>
+                    <option value="" class="input-field">Male</option>
+                    <option value="" class="input-field">Female</option>
+                </select>
+                <input type="submit" id="form-submit" class="input-field submitbtn" onclick="validation();">
+            </form>
+            <form action="" id="admin" class="input-group-register">
+                <input type="text" class="input-field" id="full-name" placeholder="Full Name" required>
+                <select name="" class="input-field" id="gender">
+                    <option value="" class="input-field" disabled selected> Gender </option>
+                    <option value="" class="input-field">Male</option>
+                    <option value="" class="input-field">Female</option>
+                </select>
+                <input type="password" class="input-field" id="full-name" placeholder="Password" required>
+                <input type="submit" id="form-submit" class="input-field submitbtn" onclick="validation();">
+            </form>
+        </div>
+    </div>
+    
+    <!--Image Slider-->
+
+    <div class="container" id="landing">
+        <div id="slides" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#slides" data-slide-to="0" class="active"></li>
+                <li data-target="#slides" data-slide-to="1"></li>
+            </ul>
+            <ul class="carousel-inner slide-ads">
+                <div class="carousel-item active slide-ad">
+                    <img src="./assets/image/picture1.jpg" alt="">
+                    <div class="carousel-caption carou">
+                        <h1>Learning Style Identification System</h1>
+                        <h5>Learning Style can be characterized, ordered and recognize 
+                            in a wide range of way. Know your learning style now</h5>
+                        <a href="#welcome"><button type="button" class="btn btn-outline-light btn-lg">Learn More</button></a>
+                    </div>
+                </div>
+                <div class="carousel-item slide-ad">
+                    <img src="./assets/image/picture2.jpg" alt="">
+                    <div class="carousel-caption carou">
+                        <h1>Learning Style Identification System</h1>
+                        <h5>Learning Style can be characterized, ordered and recognize 
+                            in a wide range of way. Know your learning style now</h5>
+                        <a href="#welcome"><button type="button" class="btn btn-outline-light btn-lg">Learn More</button></a>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <div class="space">
+
+    </div>
+
+    <!--Welcome Section-->
+    <div class="container-fluid" id="welcome">
+        <div class="container" id="welcome-text">
+            <h2 class="text-center"> Welcome! Don't know your learning style yet? </h2>
+            <h6 class="text-center"> This website is the way for trainers and learners' knowledge to be assimilated and absorbed. Help them know what learning style they have for learners and prepare the materials later on for the trainer.</h6>
+            <hr>
+        </div>
+    </div>
+
+
+    <!-- two column section -->
+
+    <div class="container" id="column-section">
+        <div class="container column-items">
+            <i class="fas fa-users"></i>
+            <span>About Us</span>
+            <p>
+                Learning Style Identification System 
+                is a System 
+                that help trainer to know their learners learning style</p>
+        </div>
+        <div class="container column-items">
+            <i class="fas fa-question-circle"></i>
+            <span>How to</span>
+            <p>
+                Before login make sure to click the account type. If you're the Trainor please select ADMIN. If you're the learner, please select LEARNER</p>
+        </div>
+    </div>
+    <footer>
+        Copyright &copy; 2021, LSIS
+    </footer>
+    <script src="css/sweetalert2.all.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
