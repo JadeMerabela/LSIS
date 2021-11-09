@@ -1,0 +1,306 @@
+Validating found git in: C:\Program Files\Git\cmd\git.exe
+Using git 2.33.1.windows.1 from C:\Program Files\Git\cmd\git.exe
+Opening repository for path='c:\xampp\htdocs\LSIS-main' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='c:\xampp\htdocs\LSIS-main\LSIS-main' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='c:\xampp\htdocs\LSIS-main\LSIS-main' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+> git init
+> git rev-parse --git-dir
+Open repository: c:\xampp\htdocs\LSIS-main
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git show --textconv :LSIS-main/index.html
+> git ls-files --stage -- C:\xampp\htdocs\LSIS-main\LSIS-main\index.html
+> git check-ignore -v -z --stdin
+> git config --get commit.template
+> git ls-files --stage -- C:\xampp\htdocs\LSIS-main\LSIS-main\index.html
+> git show --textconv :LSIS-main/index.html
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git add -A -- .
+> git ls-files --stage -- C:\xampp\htdocs\LSIS-main\LSIS-main\index.html
+> git show --textconv :LSIS-main/index.html
+warning: LF will be replaced by CRLF in LSIS-main/.vscode/settings.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/assets/Poppins/OFL.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/assets/image/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/bootstrap-4.6.0-dist/css/bootstrap-grid.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/bootstrap-4.6.0-dist/css/bootstrap-grid.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/bootstrap-4.6.0-dist/css/bootstrap-reboot.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/bootstrap-4.6.0-dist/css/bootstrap-reboot.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/bootstrap-4.6.0-dist/css/bootstrap.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/bootstrap-4.6.0-dist/css/bootstrap.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/bootstrap-4.6.0-dist/js/bootstrap.bundle.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/bootstrap-4.6.0-dist/js/bootstrap.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/bootstrap-4.6.0-dist/js/bootstrap.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/LICENSE.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/attribution.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/css/all.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/css/all.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/css/brands.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/css/brands.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/css/fontawesome.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/css/fontawesome.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/css/regular.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/css/regular.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/css/solid.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/css/solid.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/css/svg-with-js.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/css/svg-with-js.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/css/v4-shims.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/css/v4-shims.min.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/js/all.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/js/all.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/js/brands.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/js/brands.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/js/conflict-detection.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/js/conflict-detection.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/js/fontawesome.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/js/fontawesome.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/js/regular.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/js/regular.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/js/solid.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/js/solid.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/js/v4-shims.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/js/v4-shims.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/less/_animated.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/less/_bordered-pulled.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/less/_core.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/less/_fixed-width.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/less/_icons.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/less/_larger.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/less/_list.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/less/_mixins.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/less/_rotated-flipped.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/less/_screen-reader.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/less/_shims.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/less/_stacked.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/less/_variables.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/less/brands.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/less/fontawesome.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/less/regular.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/less/solid.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/less/v4-shims.less.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/metadata/categories.yml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/metadata/icons.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/metadata/icons.yml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/metadata/shims.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/metadata/shims.yml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/metadata/sponsors.yml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/scss/_animated.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/scss/_bordered-pulled.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/scss/_core.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/scss/_fixed-width.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/scss/_icons.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/scss/_larger.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/scss/_list.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/scss/_mixins.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/scss/_rotated-flipped.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/scss/_screen-reader.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/scss/_shims.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/scss/_stacked.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/scss/_variables.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/scss/brands.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/scss/fontawesome.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/scss/regular.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/scss/solid.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/scss/v4-shims.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/sprites/brands.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/sprites/regular.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/sprites/solid.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/webfonts/fa-brands-400.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/webfonts/fa-regular-400.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/fontawesome-free-5.15.4-web/webfonts/fa-solid-900.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/style.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/css/sweetalert2.all.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/js/jquery-3.6.0.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/js/popper.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/js/script.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/note.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/tools.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/user-dashboard/css/mycss.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/user-dashboard/datagather.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/user-dashboard/js/myjs.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in LSIS-main/user-dashboard/questionnare.html.
+The file will have its original line endings in your working directory
+> git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git config --get commit.template
+> git ls-files --stage -- C:\xampp\htdocs\LSIS-main\LSIS-main\index.html
+> git cat-file -s 089101ad808c594da2ffcc295b1b43e9864e023e
+> git show --textconv :LSIS-main/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git remote add LSIS https://github.com/JadeMerabela/LSIS.git
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git fetch LSIS
+> git ls-files --stage -- C:\xampp\htdocs\LSIS-main\LSIS-main\index.html
+> git cat-file -s 089101ad808c594da2ffcc295b1b43e9864e023e
+> git show --textconv :LSIS-main/index.html
+> git push -u LSIS master
+From https://github.com/JadeMerabela/LSIS
+ * [new branch]      main       -> LSIS/main
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- C:\xampp\htdocs\LSIS-main\LSIS-main\index.html
+> git cat-file -s 089101ad808c594da2ffcc295b1b43e9864e023e
+> git show --textconv :LSIS-main/index.html
+error: RPC failed; curl 92 HTTP/2 stream 0 was not closed cleanly: CANCEL (err 8)
+send-pack: unexpected disconnect while reading sideband packet
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+> git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <LSIS> <https://github.com/JadeMerabela/LSIS.git>
+
+and then push using the remote name
+
+    git push <LSIS>
